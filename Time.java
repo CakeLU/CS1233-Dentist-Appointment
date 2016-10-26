@@ -1,4 +1,3 @@
-import java.util.Scanner;
 public class Time{
   private int hours,minutes;
 
@@ -21,6 +20,14 @@ public class Time{
       hours=23;
     if(minutes>59)
       minutes=59;
+  }
+
+  public int getHours(){
+    return hours;
+  }
+
+  public int getMinutes(){
+    return minutes;
   }
 
   public void addMinutes(int a){

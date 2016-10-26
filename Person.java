@@ -13,6 +13,18 @@ public class Person{
     this.zip=zip;
   }
 
+  public String getFirst(){
+    return first;
+  }
+
+  public String getLast(){
+    return last;
+  }
+
+  public String getZip(){
+    return zip;
+  }
+
   public void printPerson(){
     System.out.printf("Full Name: %s %s\nZip Code: %s\n",first,last,zip);
   }
